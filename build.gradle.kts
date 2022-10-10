@@ -26,7 +26,7 @@ dependencies {
 
 
     compileOnly("io.papermc.paper:paper-api:$paperVersion")
-    compileOnly("org.spigotmc:minecraft-server:$paperVersion")
+    compileOnly("org.spigotmc:spigot:$paperVersion")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 
