@@ -17,6 +17,7 @@ val paperVersion = "1.19.2-R0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    mavenLocal()
     maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://oss.sonatype.org/content/groups/public/")
 }
