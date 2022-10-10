@@ -13,6 +13,8 @@ val targetJavaVersion = 17
 val compileKotlin: KotlinCompile by tasks
 val compileTestKotlin: KotlinCompile by tasks
 
+val paperVersion = "1.19-R0.1-SNAPSHOT"
+
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
@@ -23,8 +25,8 @@ repositories {
 dependencies {
 
 
-    compileOnly("io.papermc.paper:paper-api:1.19-R0.1-SNAPSHOT")
-    compileOnly("org.spigotmc:minecraft-server:1.19-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:$paperVersion")
+    compileOnly("org.spigotmc:minecraft-server:$paperVersion")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
 
